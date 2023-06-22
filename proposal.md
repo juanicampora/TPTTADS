@@ -2,16 +2,20 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 46959 - Cámpora, Juan Ignacio
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
+* [fullstack app](https://github.com/juanicampora/TPTTADS)
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+Aplicación web para mejorar la experiencia de los clientes en la noche de un Boliche.
+
+El boliche carga sus administradores, eventos, DJ's, canciones. 
+
+Los clientes pueden votar canciones, opinar sobre el DJ y solicitar canciones previo al evento.
+
+Se puede obtener información tanto del ranking de DJs como del ranking por noche o por mes de canciones.
 
 ### Modelo
 ![imagen del modelo]()
@@ -27,8 +31,8 @@
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
+|CRUD simple|1. CRUD DJs<br>2. CRUD Canciones<br>3. CRUD Evento|
+|CRUD dependiente|1. CRUD Canciones por DJ {depende de} CRUD Canciones<br>2. CRUD Opiniones {depende de} CRUD DJs|
 |Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
 |CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
 
