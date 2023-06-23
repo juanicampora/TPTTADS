@@ -26,7 +26,7 @@ Se puede obtener información tanto del ranking de DJs como del ranking por noch
 
 ### Modelo
 
-![imagen del modelo](Modelo de Dominio.png)
+![Modelo de Dominio](/Modelo%20de%20Dominio.png)
 
 ## Alcance Funcional
 
