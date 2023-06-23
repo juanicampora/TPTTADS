@@ -32,16 +32,16 @@ Regularidad:
 |Req|Detalle|
 |:-|:-|
 |CRUD simple|1. CRUD DJs<br>2. CRUD Canciones<br>3. CRUD Evento|
-|CRUD dependiente|1. CRUD Canciones por DJ {depende de} CRUD Canciones<br>2. CRUD Opiniones {depende de} CRUD DJs|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD dependiente|1. CRUD Canciones por DJ {depende de} CRUD Canciones<br>2. CRUD Opiniones sobre los DJs {depende de} CRUD DJs|
+|Listado<br>+<br>detalle| 1. Listado del Top Canciones en Tiempo Real, filtrado por Evento, muestra nombre y posicion en el ranking <br> 2. Listado del Top Canciones filtrado por Mes, muestra nombre y posicion en el ranking|
+|CUU/Epic|1. Votar canciones<br>2. Opinar sobre el DJ|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD DJs<br>2. CRUD Canciones<br>3. CRUD Evento<br>4. CRUD Canciones por DJ {depende de} CRUD Canciones<br>5. CRUD Opiniones sobre los DJs {depende de} CRUD DJs<br>6. CRUD Canciones Solicitadas<br>7. CRUD Usuarios<br>8. CRUD Tipos de Usuarios|
+|CUU/Epic|1. Votar canciones<br>2. Opinar sobre el DJ<br>3. Solicitar Canción <br>4. Login|
 
 
 ### Alcance Adicional Voluntario
@@ -50,7 +50,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. Ranking de DJs|
+|CUU/Epic|1. |
+|Otros|1. |
 
