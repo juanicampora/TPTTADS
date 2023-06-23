@@ -4,6 +4,7 @@
 ### Integrantes
 * 46959 - Cámpora, Juan Ignacio
 * 46799 - Casesi, Valentino
+* 46824 - Cordoba, Ramiro Emiliano
 
 ### Repositorios
 * [fullstack app](https://github.com/juanicampora/TPTTADS)
