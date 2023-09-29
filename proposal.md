@@ -17,11 +17,11 @@
 
 Aplicación web para mejorar la experiencia de los clientes en la noche de un Boliche.
 
-El boliche carga sus administradores, eventos, DJ's, canciones.
+El boliche carga sus DJ's y canciones.
 
-Los clientes pueden votar canciones, opinar sobre el DJ y solicitar canciones previo al evento.
+Los clientes pueden votar canciones y opinar sobre el DJ.
 
-Se puede obtener información tanto del ranking de DJs como del ranking por noche o por mes de canciones.
+Se puede obtener información del ranking de canciones por fechas.
 
 ### Modelo
 
