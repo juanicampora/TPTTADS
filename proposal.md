@@ -6,7 +6,6 @@
 
 - 46959 - Cámpora, Juan Ignacio
 - 46799 - Casesi, Valentino
-- 46824 - Cordoba, Ramiro Emiliano
 
 ### Repositorios
 
@@ -32,21 +31,19 @@ Se puede obtener información tanto del ranking de DJs como del ranking por noch
 
 ### Alcance Mínimo
 
-_Nota_: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El
-
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD DJs<br>2. CRUD Canciones<br>3. CRUD Evento|
-|CRUD dependiente|1. CRUD Canciones por DJ {depende de} CRUD Canciones<br>2. CRUD Opiniones sobre los DJs {depende de} CRUD DJs|
-|Listado<br>+<br>detalle| 1. Listado del Top Canciones en Tiempo Real, filtrado por Evento, muestra nombre y posicion en el ranking <br> 2. Listado del Top Canciones filtrado por Mes, muestra nombre y posicion en el ranking|
-|CUU/Epic|1. Votar canciones<br>2. Opinar sobre el DJ|
+|CRUD simple|1. CRUD DJs<br>2. CRUD Canciones|
+|CRUD dependiente|1. CRUD Canciones por DJ {depende de} CRUD Canciones y CRUD DJs|
+|Listado<br>+<br>detalle| 1. Listado del Top Canciones con opcion entre fechas o historico + detalle cantidad votos obtenidos|
+|CUU/Epic|1. Votar canciones|
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD DJs<br>2. CRUD Canciones<br>3. CRUD Evento<br>4. CRUD Canciones por DJ {depende de} CRUD Canciones<br>5. CRUD Opiniones sobre los DJs {depende de} CRUD DJs<br>6. CRUD Canciones Solicitadas<br>7. CRUD Usuarios<br>8. CRUD Tipos de Usuarios|
-|CUU/Epic|1. Votar canciones<br>2. Opinar sobre el DJ<br>3. Solicitar Canción <br>4. Login|
+|CRUD |1. CRUD DJs<br>2. CRUD Canciones<br>3. CRUD Canciones por DJ {depende de} CRUD Canciones <br>4. CRUD Usuarios<br>5. CRUD Tipos de Usuarios|
+|CUU/Epic|1. Votar canciones<br>2. Opinar sobre el DJ|
 
 ### Alcance Adicional Voluntario
 
