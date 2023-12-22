@@ -36,7 +36,7 @@ Regularidad:
 |:-|:-|
 |CRUD simple|1. CRUD DJs<br>2. CRUD Canciones|
 |CRUD dependiente|1. CRUD Canciones por DJ {depende de} CRUD Canciones y CRUD DJs|
-|Listado<br>+<br>detalle| 1. Listado del Top Canciones con opcion entre fechas o historico + detalle cantidad votos obtenidos|
+|Listado<br>+<br>detalle| 1. Listado del Top Canciones con opcion de fecha o historico + detalle cantidad votos obtenidos|
 |CUU/Epic|1. Votar canciones|
 
 Adicionales para Aprobación
