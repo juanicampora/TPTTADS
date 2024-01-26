@@ -9,8 +9,8 @@
 
 ### Repositorios
 
-- [fullstack app](https://github.com/juanicampora/TPTTADS)
-
+- [Frontend](https://github.com/juanicampora/TTADS-FRONTEND)
+- [Backend](https://github.com/ValenCasesi/TTADSBACKEND)
 ## Tema
 
 ### Descripción
