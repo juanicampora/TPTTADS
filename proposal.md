@@ -27,7 +27,7 @@ Se puede obtener información del top de canciones por fechas.
 
 ### Modelo
 
-![Modelo de Dominio](/Modelo%20de%20Dominio.png)
+![Modelo de Dominio](/Modelo%20Dominio.png)
 
 ## Alcance Funcional
 
