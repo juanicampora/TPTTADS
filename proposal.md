@@ -17,11 +17,13 @@
 
 Aplicación web para mejorar la experiencia de los clientes en la noche de un Boliche.
 
-El boliche carga sus DJ's y canciones.
+El boliche carga sus DJ's, accesos y canciones.
 
-Los clientes pueden votar canciones y opinar sobre el DJ.
+El dj carga sus propias canciones que pueden coincidir con las del boliche.
 
-Se puede obtener información del ranking de canciones por fechas.
+Los clientes pueden votar canciones de la noche y opinar sobre el DJ.
+
+Se puede obtener información del top de canciones por fechas.
 
 ### Modelo
 
@@ -42,7 +44,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD DJs<br>2. CRUD Canciones<br>3. CRUD Canciones por DJ {depende de} CRUD Canciones <br>4. CRUD Usuarios<br>5. CRUD Tipos de Usuarios|
+|CRUD |1. CRUD DJs<br>2. CRUD Canciones<br>3. CRUD Canciones por DJ {depende de} CRUD Canciones <br>4. CRUD Accesos DJ|
 |CUU/Epic|1. Votar canciones<br>2. Opinar sobre el DJ|
 
 ### Alcance Adicional Voluntario
@@ -51,6 +53,6 @@ _Nota_: El Alcance Adicional Voluntario es opcional, pero ayuda a que la funcion
 
 | Req      | Detalle           |
 | :------- | :---------------- |
-| Listados | 1. Ranking de DJs |
+| Listados | 1. Opiniones del Dj |
 | CUU/Epic | 1.                |
 | Otros    | 1.                |
